@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3,
+h1 {
+  color: rgb(54, 160, 221);
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  padding: 1rem;
+  margin: auto;
+}
+
+.container h1 {
+  margin: 0.5rem 0rem;
+}
+
+.problem {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.problem h1,
+.problem p {
+  margin: 0.5rem 0rem;
+}
+
+.problem p {
+  width: 100%;
+  padding: 0.8rem 0.3rem;
+  line-height: 26px;
+  font-size: 18px;
+  background-color: rgb(232, 232, 232);
+  border-radius: 6px;
+}
+
+.form {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  background-color: rgb(4, 157, 245);
+  border-radius: 8px;
+}
+
+.form .input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .input label {
+  margin: 0.5rem 0rem;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.form p {
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgb(232, 232, 232);
+}
+
+.form .input input[type='text'] {
+  min-height: 40px;
+  padding: 0.3rem 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 16px;
+}
+
+.form button {
+  margin: 0.5rem 0rem;
+  min-height: 40px;
+  min-width: 80px;
+  background-color: rgb(232, 232, 232);
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form h3 {
+  color: whitesmoke;
+  margin: 0.5rem 0rem;
+  font-size: 18px;
+}

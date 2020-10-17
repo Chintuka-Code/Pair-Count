@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shokes Assigment</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="problem">
+        <h1>PROBLEM :</h1>
+        <p>
+          Rohit works at a clothing store. He has a large pile of socks that he
+          must pair by colour for sale. Given an array of integers representing
+          the color of each sock, determine how many pairs of socks with
+          matching colors there are. For example, there are n=17 with color
+          ar=[1,1,1,1,2,3,3,3,3,3,3,3,4,4,4,4,4] . There is two pair of color 1
+          , three of color 3 and two of color 4 . There are three odd socks
+          left, one of color 2 , color 3 and color 4 . The number of pair is 7 .
+        </p>
+        <h3>
+          Write a program in Java Script that will take shocks array as input
+          and returns number of pairs for every unique color.
+        </h3>
+        <h3>Input Format</h3>
+        <p>
+          The First line contains an integer n, the number of socks represented
+          in ar . The Second line contains n space-separated integers describing
+          the colors ar[i] of the
+        </p>
+        <h3>Output Format</h3>
+        <p>
+          Return the total number of matching pairs of socks that Rohit can
+          sell.
+        </p>
+        <h3>Sample Input</h3>
+        <p>10 10 10 10 20 30 30 30 30 30 30 30 40 40 40 40 40</p>
+        <h3>Sample Output</h3>
+        <p>7</p>
+      </div>
+      <h1>Here is my Solution</h1>
+      <div class="form">
+        <h3>Logic</h3>
+        <p>
+          Take input split it into a array and then sort. After sorting compair
+          i and i++ if it equal count++ and i+2 else i++
+        </p>
+        <div class="input">
+          <label for=""> Enter Shocks Stock Array </label>
+          <input type="text" name="" placeholder="stock array" id="" />
+        </div>
+        <button onclick="getPair()">Submit</button>
+        <h3 class="result">Total no of Pair :- <span></span></h3>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
